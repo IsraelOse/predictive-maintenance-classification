@@ -1,0 +1,6 @@
+variable,r_squared_on_others,VIF
+air_temp_K,0.7677,4.3
+process_temp_K,0.7676,4.3
+rot_speed_rpm,0.7658,4.27
+torque_Nm,0.7657,4.27
+tool_wear_min,0.0002,1.0

@@ -1,0 +1,8 @@
+step,scope,applies_to,justification
+"Drop UDI, Product ID",Common,All four,Identifiers with no operational meaning; Product ID also duplicates Type.
+"Drop TWF, HDF, PWF, OSF, RNF",Common,All four,"Post-hoc failure-mode labels; the first four reproduce the target on 99.91% of rows, so keeping them would hand the answer to the model."
+"Median imputation, numeric block",Common,All four,Redundant on this extract (zero missing cells) and retained as an operational safeguard for live sensor dropouts.
+"One-hot encode type, drop first",Common,All four,"Three levels only. One-hot costs two columns and avoids asserting that the L to M to H spacing is equal, which an ordinal code would."
+Engineered features,Common,All four,"power_W, temp_diff_K, wear_torque. Row-wise, so leakage-free."
+Standardisation,Model-specific,Logistic Regression only,"The L2 penalty shrinks coefficients in proportion to their scale, so an unscaled torque in Nm and a wear-torque product in the thousands would be penalised very differently. Trees split on rank order, so scaling them would change nothing but would hide the units."
+Class-imbalance treatment,Model-specific,Compared in stage 07,"class_weight for LR/DT/RF, scale_pos_weight for XGBoost, SMOTE inside the cross-validation pipeline. Never applied to a validation fold."

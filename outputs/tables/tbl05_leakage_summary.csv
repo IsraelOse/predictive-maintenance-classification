@@ -1,0 +1,8 @@
+check,result
+"OR(TWF,HDF,PWF,OSF) == Machine failure",9991/10000 rows (99.91%)
+"rows: mode fires, target = 0",0
+"rows: target = 1, no mode fires",9
+OR(all five incl. RNF) == Machine failure,9973/10000 rows (99.73%)
+RNF rows total,19
+RNF fires alone,18
+RNF fires alone and target = 1,0

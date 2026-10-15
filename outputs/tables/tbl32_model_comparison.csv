@@ -1,0 +1,5 @@
+model,accuracy,precision,recall,f1,roc_auc,pr_auc,TN,FP,FN,TP,imbalance_treatment
+Logistic Regression,0.972,0.8333,0.2206,0.3488,0.9075,0.5408,1929,3,53,15,none
+Decision Tree,0.9925,1.0,0.7794,0.876,0.9709,0.8849,1932,0,15,53,none
+Random Forest,0.992,0.9815,0.7794,0.8689,0.9792,0.9048,1931,1,15,53,none
+XGBoost,0.988,0.8793,0.75,0.8095,0.9757,0.8734,1925,7,17,51,none

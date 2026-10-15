@@ -1,0 +1,20 @@
+# DAMO510 Take-Home Assignment 2
+# Direct dependencies, pinned to the versions this analysis ran on.
+# Reproduce with:  python -m venv .venv && .venv/Scripts/pip install -r requirements.txt
+
+pandas==3.0.5
+numpy==2.5.2
+scikit-learn==1.9.0
+xgboost==3.4.1
+imbalanced-learn==0.14.2
+matplotlib==3.11.1
+seaborn==0.13.2
+scipy==1.18.1
+ucimlrepo==0.0.7
+python-docx==1.2.0
+openpyxl==3.1.5
+nbformat==5.11.1
+nbconvert==7.17.1
+jupyter==1.1.1
+ipykernel==7.3.0
+pywin32==312

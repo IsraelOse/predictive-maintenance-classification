@@ -1,0 +1,5 @@
+model,n_configurations_tried,search_seconds,selected_parameters,cv_pr_auc
+Logistic Regression,16,0.5,"C=1, penalty=l2, solver=liblinear",0.4739
+Decision Tree,140,1.8,"criterion=gini, max_depth=6, min_samples_leaf=10, min_samples_split=2",0.8967
+Random Forest,80,107.2,"max_depth=8, max_features=0.6, min_samples_leaf=1, min_samples_split=2, n_estimators=600",0.9135
+XGBoost,80,9.2,"colsample_bytree=1.0, gamma=0.5, learning_rate=0.03, max_depth=6, min_child_weight=1, n_estimators=800, reg_lambda=5, subsample=1.0",0.8737

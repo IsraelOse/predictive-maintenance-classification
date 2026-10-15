@@ -1,0 +1,7 @@
+model_a,model_b,spearman_rho,p_value
+Logistic Regression,Decision Tree,0.276,0.44
+Logistic Regression,Random Forest,0.479,0.162
+Logistic Regression,XGBoost,0.491,0.15
+Decision Tree,Random Forest,0.939,5.73e-05
+Decision Tree,XGBoost,0.939,5.73e-05
+Random Forest,XGBoost,0.952,2.28e-05

@@ -1,0 +1,5 @@
+model,best_pr_auc_treatment,best_pr_auc,untreated_pr_auc,gap,untreated_sd,within_one_sd,retained
+Logistic Regression,none,0.4739,0.4739,0.0,0.0315,True,none
+Decision Tree,none,0.8967,0.8967,0.0,0.0164,True,none
+Random Forest,none,0.9135,0.9135,0.0,0.0189,True,none
+XGBoost,none,0.8737,0.8737,0.0,0.0439,True,none

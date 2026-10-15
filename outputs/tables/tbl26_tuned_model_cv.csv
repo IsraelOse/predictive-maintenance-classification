@@ -1,0 +1,5 @@
+model,cv_average_precision,sd_average_precision,cv_roc_auc,sd_roc_auc,cv_recall,sd_recall,cv_precision,sd_precision,cv_f1,sd_f1,cv_accuracy,sd_accuracy,fit_seconds
+Logistic Regression (tuned),0.4739,0.0315,0.9194,0.012,0.2177,0.0318,0.7598,0.111,0.3349,0.0314,0.9709,0.0012,0.12
+Decision Tree (tuned),0.8967,0.0164,0.9746,0.0098,0.8119,0.0293,0.9583,0.0338,0.8782,0.0147,0.9924,0.0009,0.11
+Random Forest (tuned),0.9135,0.0189,0.9844,0.0066,0.8156,0.0282,0.9747,0.0239,0.8874,0.0112,0.993,0.0006,28.08
+XGBoost (tuned),0.8737,0.0439,0.9825,0.006,0.7418,0.0895,0.8845,0.0424,0.8049,0.0631,0.988,0.0035,1.41

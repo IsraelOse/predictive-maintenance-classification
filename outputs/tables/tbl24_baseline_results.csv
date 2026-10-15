@@ -1,0 +1,6 @@
+model,accuracy,precision,recall,f1,roc_auc,pr_auc,TN,FP,FN,TP
+B1 Majority class (always predict no failure),0.966,0.0,0.0,0.0,0.5,0.034,1932,0,68,0
+B2 Stratified random guess (seed 93),0.9415,0.0702,0.0588,0.064,0.5157,0.0361,1879,53,64,4
+B3 Operator rule: tool wear >= 200 min,0.911,0.1333,0.2941,0.1835,0.6317,0.1044,1802,130,48,20
+"B4 Operator rule: power outside 3,500 to 9,000 W",0.977,1.0,0.3235,0.4889,0.8164,0.4424,1932,0,46,22
+B5 Logistic regression on torque alone,0.9665,1.0,0.0147,0.029,0.7659,0.3757,1932,0,67,1

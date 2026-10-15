@@ -1,0 +1,4 @@
+dropped_feature,rf_pr_auc_without,rf_cost_of_dropping,lr_pr_auc_without,lr_cost_of_dropping
+power_W,0.8485,0.0413,0.405,0.0399
+temp_diff_K,0.8408,0.049,0.4445,0.0004
+wear_torque,0.8698,0.02,0.4668,-0.0219

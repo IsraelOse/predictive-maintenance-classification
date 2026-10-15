@@ -1,0 +1,4 @@
+type,n,failures,mean_wear_torque,failure_rate_pct
+H,1003,21,4280.9,2.09
+L,6000,235,4341.5,3.92
+M,2997,83,4272.3,2.77

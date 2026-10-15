@@ -1,0 +1,11 @@
+feature,gini_importance,engineered,rank
+rot_speed_rpm,0.2076,False,1
+torque_Nm,0.1909,False,2
+power_W,0.165,True,3
+tool_wear_min,0.1367,False,4
+wear_torque,0.1205,True,5
+temp_diff_K,0.0992,True,6
+air_temp_K,0.0472,False,7
+process_temp_K,0.0262,False,8
+type_M,0.0038,False,9
+type_L,0.0028,False,10

@@ -1,0 +1,4 @@
+feature,verdict,rf_importance_rank,max_ablation_cost_pr_auc
+power_W,Retained,3,0.0413
+temp_diff_K,Retained,6,0.049
+wear_torque,Retained,5,0.02

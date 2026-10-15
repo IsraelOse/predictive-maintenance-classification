@@ -1,0 +1,6 @@
+flag,n_fired,pct_of_rows,n_fired_and_failure,n_fired_but_no_failure,pct_fired_that_are_failures
+TWF,46,0.46,46,0,100.0
+HDF,115,1.15,115,0,100.0
+PWF,95,0.95,95,0,100.0
+OSF,98,0.98,98,0,100.0
+RNF,19,0.19,1,18,5.26

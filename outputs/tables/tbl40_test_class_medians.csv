@@ -1,0 +1,9 @@
+variable,median_no_failure,median_failure
+air_temp_K,300.1,301.0
+process_temp_K,310.1,310.4
+rot_speed_rpm,1503.0,1367.0
+torque_Nm,39.9,54.15
+tool_wear_min,105.0,146.0
+power_W,6241.4,7761.32
+temp_diff_K,9.8,9.5
+wear_torque,3984.0,6916.5

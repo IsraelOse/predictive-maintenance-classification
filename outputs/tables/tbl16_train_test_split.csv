@@ -1,0 +1,4 @@
+partition,n_rows,n_failures,failure_rate_pct
+train,8000,271,3.388
+test,2000,68,3.4
+total,10000,339,3.39

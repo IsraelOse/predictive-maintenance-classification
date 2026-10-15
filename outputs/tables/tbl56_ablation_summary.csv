@@ -1,0 +1,5 @@
+model,pr_auc_raw_sensors_only,pr_auc_with_engineered,recall_raw_sensors_only,recall_with_engineered,f1_raw_sensors_only,f1_with_engineered,roc_auc_raw_sensors_only,roc_auc_with_engineered,pr_auc_loss_without_engineered,recall_loss_without_engineered
+Decision Tree,0.5616,0.8849,0.4412,0.7794,0.5607,0.876,0.9074,0.9709,0.3233,0.3382
+Logistic Regression,0.5023,0.5408,0.1765,0.2206,0.2927,0.3488,0.8999,0.9075,0.0385,0.0441
+Random Forest,0.7859,0.9048,0.5147,0.7794,0.6604,0.8689,0.972,0.9792,0.1189,0.2647
+XGBoost,0.8252,0.8734,0.6176,0.75,0.7368,0.8095,0.9754,0.9757,0.0482,0.1324

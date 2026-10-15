@@ -1,0 +1,9 @@
+feature,engineered,median_no_failure,median_failure,cohens_d,univariate_auc,point_biserial_r,p_value,auc_distance_from_chance
+rot_speed_rpm,False,1507.0,1365.0,-0.261,0.2272,-0.0472,9.06e-53,0.2728
+torque_Nm,False,39.8,53.6,1.065,0.7713,0.1892,3.17e-52,0.2713
+power_W,True,6244.29,7557.79,0.961,0.7441,0.1713,1.31e-42,0.2441
+wear_torque,True,3947.6,7810.5,1.098,0.7066,0.1949,5.25e-31,0.2066
+temp_diff_K,True,9.9,9.2,-0.667,0.3229,-0.1199,3.08e-23,0.1771
+tool_wear_min,False,107.0,172.0,0.611,0.6698,0.1099,1.82e-21,0.1698
+air_temp_K,False,300.0,301.7,0.476,0.6368,0.0858,1.71e-14,0.1368
+process_temp_K,False,310.0,310.4,0.194,0.5626,0.0351,0.000453,0.0626

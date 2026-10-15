@@ -1,0 +1,14 @@
+variable,decision,reason
+UDI,Exclude,"Row counter 1 to 10000, unique on every row. Carries the sort order of the file and nothing about machine condition."
+Product ID,Exclude,"Quality letter plus serial number, 10000 unique values. Its first character duplicates Type, so it adds a redundant copy of a variable I already keep, plus thousands of useless levels."
+Type,Include,"Three-level product quality rating L/M/H, a genuine design characteristic known before the machine runs."
+Air temperature [K],Include,"Ambient process condition, measured live."
+Process temperature [K],Include,"Machine-side temperature, measured live."
+Rotational speed [rpm],Include,Live sensor reading.
+Torque [Nm],Include,Live sensor reading.
+Tool wear [min],Include,"Cumulative minutes of tool use, known live."
+TWF,Exclude,Tool-wear failure mode. Post-hoc label assigned after a failure is diagnosed; also part of the OR that defines the target.
+HDF,Exclude,"Heat-dissipation failure mode, same argument."
+PWF,Exclude,"Power failure mode, same argument."
+OSF,Exclude,"Overstrain failure mode, same argument."
+RNF,Exclude,"Random failure flag. Not part of the OR that defines the target and essentially unpredictable, so it is noise at prediction time."

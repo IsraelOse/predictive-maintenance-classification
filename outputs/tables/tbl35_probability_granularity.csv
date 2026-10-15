@@ -1,0 +1,5 @@
+model,distinct_probabilities_on_test,available_operating_points
+Logistic Regression,2000,2000
+Decision Tree,10,10
+Random Forest,1920,1920
+XGBoost,1937,1937

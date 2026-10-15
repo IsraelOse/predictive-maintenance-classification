@@ -1,0 +1,5 @@
+condition,n_rows,n_failures,failure_rate_pct
+gap < 8.6 K AND speed < 1380 rpm,115,115,100.0
+gap < 8.6 K only,605,11,1.82
+speed < 1380 rpm only,1245,103,8.27
+neither,8035,110,1.37

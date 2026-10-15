@@ -1,0 +1,13 @@
+model,treatment,recall_change,precision_change,f1_change,pr_auc_change,roc_auc_change
+Logistic Regression,class weighting,0.6238,-0.5903,-0.0528,-0.0291,0.009
+Logistic Regression,SMOTE,0.6163,-0.5895,-0.0522,-0.0392,0.0091
+Logistic Regression,SMOTE + undersample,0.5351,-0.5229,0.0253,-0.0236,0.0086
+Decision Tree,class weighting,0.0959,-0.5545,-0.3196,-0.0523,-0.0454
+Decision Tree,SMOTE,0.0776,-0.5607,-0.3313,-0.1033,-0.0249
+Decision Tree,SMOTE + undersample,0.0294,-0.3679,-0.1884,-0.091,-0.0207
+Random Forest,class weighting,-0.0037,-0.1139,-0.0526,-0.0194,0.0011
+Random Forest,SMOTE,0.0405,-0.3744,-0.1825,-0.065,-0.0034
+Random Forest,SMOTE + undersample,0.0369,-0.2934,-0.1312,-0.0276,-0.0016
+XGBoost,class weighting,0.0886,-0.1243,-0.013,-0.0029,-0.0014
+XGBoost,SMOTE,0.0701,-0.2041,-0.0663,-0.0051,-0.0051
+XGBoost,SMOTE + undersample,0.0958,-0.1547,-0.0252,-0.0003,-0.0019

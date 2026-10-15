@@ -1,0 +1,11 @@
+feature,coefficient,odds_ratio_per_sd,abs_coefficient
+torque_Nm,5.093,162.8852,5.093
+power_W,-2.4782,0.0839,2.4782
+rot_speed_rpm,2.0464,7.7404,2.0464
+temp_diff_K,-0.6801,0.5066,0.6801
+tool_wear_min,0.6345,1.8861,0.6345
+type_M,-0.2878,0.7499,0.2878
+air_temp_K,0.2213,1.2477,0.2213
+wear_torque,0.1858,1.2042,0.1858
+process_temp_K,-0.1591,0.8529,0.1591
+type_L,0.1102,1.1165,0.1102

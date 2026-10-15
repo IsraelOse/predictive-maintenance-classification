@@ -1,0 +1,7 @@
+criterion,strongest_model,value,weakest_model,weakest_value
+accuracy,Decision Tree,0.9925,Logistic Regression,0.972
+precision,Decision Tree,1.0,Logistic Regression,0.8333
+recall,Decision Tree,0.7794,Logistic Regression,0.2206
+f1,Decision Tree,0.876,Logistic Regression,0.3488
+roc_auc,Random Forest,0.9792,Logistic Regression,0.9075
+pr_auc,Random Forest,0.9048,Logistic Regression,0.5408

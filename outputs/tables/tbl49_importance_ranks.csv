@@ -1,0 +1,11 @@
+feature,Logistic Regression,Decision Tree,Random Forest,XGBoost
+air_temp_K,7,9,8,8
+process_temp_K,9,9,10,9
+rot_speed_rpm,3,2,3,1
+torque_Nm,1,6,5,5
+tool_wear_min,5,7,6,6
+power_W,2,3,2,3
+temp_diff_K,4,4,4,4
+wear_torque,8,1,1,2
+type_L,10,5,7,7
+type_M,6,9,9,10

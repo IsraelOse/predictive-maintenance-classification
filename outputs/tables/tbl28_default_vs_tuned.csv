@@ -1,0 +1,5 @@
+model,default_cv_pr_auc,tuned_cv_pr_auc,improvement,default_cv_recall,tuned_cv_recall
+Logistic Regression,0.4744,0.4739,-0.0005,0.2177,0.2177
+Decision Tree,0.6906,0.8967,0.2061,0.8267,0.8119
+Random Forest,0.897,0.9135,0.0165,0.8082,0.8156
+XGBoost,0.851,0.8737,0.0227,0.7456,0.7418
