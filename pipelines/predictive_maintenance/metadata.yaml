@@ -1,0 +1,34 @@
+# Pipeline configuration: predictive_maintenance
+name: predictive_maintenance
+description: >
+  Machine-failure prediction on the UCI AI4I 2020 dataset. Loads raw sensor
+  data, removes leakage, engineers physics-based features, and trains four
+  classifiers, selecting on PR-AUC.
+
+# Execution order of the decoupled blocks
+execution_order:
+  - block: data_loaders.ai4i_loader.load_raw_data
+    type: data_loader
+  - block: transformers.clean.clean
+    type: transformer
+  - block: transformers.feature_engineering.add_engineered_features
+    type: transformer
+  - block: transformers.split.split_data
+    type: transformer
+  - block: transformers.model_training.train_and_evaluate
+    type: transformer
+  - block: data_exporters.local_exporter.export_metrics
+    type: data_exporter
+
+# Variables (overridable per environment)
+variables:
+  seed: 93
+  test_size: 0.20
+  cv_folds: 5
+  selection_metric: average_precision   # PR-AUC
+  target: machine_failure
+
+# Scheduling (cron). Retrain weekly; adjust for your orchestrator.
+schedule:
+  interval: "0 3 * * 1"   # 03:00 every Monday
+  enabled: false
